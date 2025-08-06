@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <!-- Background -->
+  <rect width="600" height="600" fill="#F9F5F0" />
+  
+  <!-- Dollhouse base -->
+  <rect x="150" y="400" width="300" height="20" rx="5" fill="#8B5A2B" />
+  <rect x="160" y="405" width="280" height="10" rx="3" fill="#A67C52" />
+  
+  <!-- Dollhouse main structure -->
+  <rect x="175" y="200" width="250" height="200" fill="#D2B48C" />
+  
+  <!-- Roof -->
+  <polygon points="175,200 300,150 425,200" fill="#8B5A2B" />
+  <polygon points="180,200 300,155 420,200" fill="#A67C52" />
+  
+  <!-- Chimney -->
+  <rect x="350" y="160" width="20" height="40" fill="#8B5A2B" />
+  <rect x="355" y="155" width="10" height="5" fill="#A67C52" />
+  
+  <!-- Front wall with wood grain -->
+  <rect x="175" y="200" width="250" height="200" fill="#E6D2B5" />
+  <path d="M200,220 C250,225 350,225 400,220" stroke="#C19A6B" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M200,260 C250,265 350,265 400,260" stroke="#C19A6B" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M200,300 C250,305 350,305 400,300" stroke="#C19A6B" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M200,340 C250,345 350,345 400,340" stroke="#C19A6B" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M200,380 C250,385 350,385 400,380" stroke="#C19A6B" stroke-width="1" fill="none" opacity="0.3" />
+  
+  <!-- Door -->
+  <rect x="275" y="320" width="50" height="80" rx="3" fill="#A67C52" />
+  <rect x="280" y="325" width="40" height="70" rx="2" fill="#C19A6B" />
+  <circle cx="315" cy="360" r="3" fill="#8B5A2B" />
+  
+  <!-- Windows -->
+  <!-- Window 1 (left, upper floor) -->
+  <rect x="200" y="220" width="40" height="40" fill="#E6D2B5" />
+  <rect x="200" y="220" width="40" height="40" fill="none" stroke="#8B5A2B" stroke-width="3" />
+  <line x1="220" y1="220" x2="220" y2="260" stroke="#8B5A2B" stroke-width="3" />
+  <line x1="200" y1="240" x2="240" y2="240" stroke="#8B5A2B" stroke-width="3" />
+  
+  <!-- Window 2 (right, upper floor) -->
+  <rect x="360" y="220" width="40" height="40" fill="#E6D2B5" />
+  <rect x="360" y="220" width="40" height="40" fill="none" stroke="#8B5A2B" stroke-width="3" />
+  <line x1="380" y1="220" x2="380" y2="260" stroke="#8B5A2B" stroke-width="3" />
+  <line x1="360" y1="240" x2="400" y2="240" stroke="#8B5A2B" stroke-width="3" />
+  
+  <!-- Window 3 (left, lower floor) -->
+  <rect x="200" y="320" width="40" height="40" fill="#E6D2B5" />
+  <rect x="200" y="320" width="40" height="40" fill="none" stroke="#8B5A2B" stroke-width="3" />
+  <line x1="220" y1="320" x2="220" y2="360" stroke="#8B5A2B" stroke-width="3" />
+  <line x1="200" y1="340" x2="240" y2="340" stroke="#8B5A2B" stroke-width="3" />
+  
+  <!-- Window 4 (right, lower floor) -->
+  <rect x="360" y="320" width="40" height="40" fill="#E6D2B5" />
+  <rect x="360" y="320" width="40" height="40" fill="none" stroke="#8B5A2B" stroke-width="3" />
+  <line x1="380" y1="320" x2="380" y2="360" stroke="#8B5A2B" stroke-width="3" />
+  <line x1="360" y1="340" x2="400" y2="340" stroke="#8B5A2B" stroke-width="3" />
+  
+  <!-- Floor divider -->
+  <rect x="175" y="300" width="250" height="5" fill="#8B5A2B" />
+  
+  <!-- Furniture (simplified) -->
+  <!-- Bed (upper floor) -->
+  <rect x="190" y="270" width="30" height="20" fill="#C19A6B" />
+  <rect x="190" y="265" width="30" height="5" fill="#E6D2B5" />
+  
+  <!-- Table (lower floor) -->
+  <rect x="230" y="380" width="20" height="20" fill="#A67C52" />
+  <rect x="235" y="375" width="10" height="5" fill="#C19A6B" />
+  
+  <!-- Chair (lower floor) -->
+  <rect x="255" y="385" width="10" height="15" fill="#A67C52" />
+  <rect x="255" y="380" width="10" height="5" fill="#C19A6B" />
+  
+  <!-- Tiny wooden doll -->
+  <circle cx="320" cy="280" r="5" fill="#E6D2B5" />
+  <rect x="318" y="285" width="4" height="10" fill="#E6D2B5" />
+  <rect x="315" y="295" width="10" height="5" fill="#D2B48C" />
+  
+  <!-- Shadow under the dollhouse -->
+  <ellipse cx="300" cy="430" rx="150" ry="10" fill="#6B4226" opacity="0.2" />
+</svg>

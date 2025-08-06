@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <!-- Background -->
+  <rect width="600" height="600" fill="#F9F5F0" />
+  
+  <!-- Puzzle board -->
+  <rect x="150" y="150" width="300" height="300" rx="10" fill="#8B5A2B" />
+  <rect x="160" y="160" width="280" height="280" rx="5" fill="#A67C52" />
+  
+  <!-- Wood grain on board -->
+  <path d="M200,200 C250,205 350,205 400,200" stroke="#6B4226" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M200,250 C250,255 350,255 400,250" stroke="#6B4226" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M200,300 C250,305 350,305 400,300" stroke="#6B4226" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M200,350 C250,355 350,355 400,350" stroke="#6B4226" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M200,400 C250,405 350,405 400,400" stroke="#6B4226" stroke-width="1" fill="none" opacity="0.3" />
+  
+  <!-- Puzzle grid lines -->
+  <line x1="150" y1="200" x2="450" y2="200" stroke="#6B4226" stroke-width="2" />
+  <line x1="150" y1="250" x2="450" y2="250" stroke="#6B4226" stroke-width="2" />
+  <line x1="150" y1="300" x2="450" y2="300" stroke="#6B4226" stroke-width="2" />
+  <line x1="150" y1="350" x2="450" y2="350" stroke="#6B4226" stroke-width="2" />
+  <line x1="150" y1="400" x2="450" y2="400" stroke="#6B4226" stroke-width="2" />
+  
+  <line x1="200" y1="150" x2="200" y2="450" stroke="#6B4226" stroke-width="2" />
+  <line x1="250" y1="150" x2="250" y2="450" stroke="#6B4226" stroke-width="2" />
+  <line x1="300" y1="150" x2="300" y2="450" stroke="#6B4226" stroke-width="2" />
+  <line x1="350" y1="150" x2="350" y2="450" stroke="#6B4226" stroke-width="2" />
+  <line x1="400" y1="150" x2="400" y2="450" stroke="#6B4226" stroke-width="2" />
+  
+  <!-- Puzzle pieces -->
+  <!-- Piece 1 -->
+  <g transform="translate(175, 175)">
+    <rect x="0" y="0" width="45" height="45" rx="5" fill="#D2B48C" />
+    <rect x="2" y="2" width="41" height="41" rx="3" fill="#E6D2B5" />
+    <text x="22.5" y="30" font-family="Arial" font-size="25" font-weight="bold" text-anchor="middle" fill="#8B5A2B">1</text>
+  </g>
+  
+  <!-- Piece 2 -->
+  <g transform="translate(225, 175)">
+    <rect x="0" y="0" width="45" height="45" rx="5" fill="#D2B48C" />
+    <rect x="2" y="2" width="41" height="41" rx="3" fill="#E6D2B5" />
+    <text x="22.5" y="30" font-family="Arial" font-size="25" font-weight="bold" text-anchor="middle" fill="#8B5A2B">2</text>
+  </g>
+  
+  <!-- Piece 3 -->
+  <g transform="translate(275, 175)">
+    <rect x="0" y="0" width="45" height="45" rx="5" fill="#D2B48C" />
+    <rect x="2" y="2" width="41" height="41" rx="3" fill="#E6D2B5" />
+    <text x="22.5" y="30" font-family="Arial" font-size="25" font-weight="bold" text-anchor="middle" fill="#8B5A2B">3</text>
+  </g>
+  
+  <!-- Piece 4 -->
+  <g transform="translate(325, 175)">
+    <rect x="0" y="0" width="45" height="45" rx="5" fill="#D2B48C" />
+    <rect x="2" y="2" width="41" height="41" rx="3" fill="#E6D2B5" />
+    <text x="22.5" y="30" font-family="Arial" font-size="25" font-weight="bold" text-anchor="middle" fill="#8B5A2B">4</text>
+  </g>
+  
+  <!-- Piece 5 -->
+  <g transform="translate(375, 175)">
+    <rect x="0" y="0" width="45" height="45" rx="5" fill="#D2B48C" />
+    <rect x="2" y="2" width="41" height="41" rx="3" fill="#E6D2B5" />
+    <text x="22.5" y="30" font-family="Arial" font-size="25" font-weight="bold" text-anchor="middle" fill="#8B5A2B">5</text>
+  </g>
+  
+  <!-- Piece 6 -->
+  <g transform="translate(175, 225)">
+    <rect x="0" y="0" width="45" height="45" rx="5" fill="#D2B48C" />
+    <rect x="2" y="2" width="41" height="41" rx="3" fill="#E6D2B5" />
+    <text x="22.5" y="30" font-family="Arial" font-size="25" font-weight="bold" text-anchor="middle" fill="#8B5A2B">6</text>
+  </g>
+  
+  <!-- Piece 7 -->
+  <g transform="translate(225, 225)">
+    <rect x="0" y="0" width="45" height="45" rx="5" fill="#D2B48C" />
+    <rect x="2" y="2" width="41" height="41" rx="3" fill="#E6D2B5" />
+    <text x="22.5" y="30" font-family="Arial" font-size="25" font-weight="bold" text-anchor="middle" fill="#8B5A2B">7</text>
+  </g>
+  
+  <!-- Piece 8 -->
+  <g transform="translate(275, 225)">
+    <rect x="0" y="0" width="45" height="45" rx="5" fill="#D2B48C" />
+    <rect x="2" y="2" width="41" height="41" rx="3" fill="#E6D2B5" />
+    <text x="22.5" y="30" font-family="Arial" font-size="25" font-weight="bold" text-anchor="middle" fill="#8B5A2B">8</text>
+  </g>
+  
+  <!-- Piece 9 -->
+  <g transform="translate(325, 225)">
+    <rect x="0" y="0" width="45" height="45" rx="5" fill="#D2B48C" />
+    <rect x="2" y="2" width="41" height="41" rx="3" fill="#E6D2B5" />
+    <text x="22.5" y="30" font-family="Arial" font-size="25" font-weight="bold" text-anchor="middle" fill="#8B5A2B">9</text>
+  </g>
+  
+  <!-- Piece 10 -->
+  <g transform="translate(375, 225)">
+    <rect x="0" y="0" width="45" height="45" rx="5" fill="#D2B48C" />
+    <rect x="2" y="2" width="41" height="41" rx="3" fill="#E6D2B5" />
+    <text x="22.5" y="30" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#8B5A2B">10</text>
+  </g>
+  
+  <!-- Piece 11 -->
+  <g transform="translate(175, 275)">
+    <rect x="0" y="0" width="45" height="45" rx="5" fill="#D2B48C" />
+    <rect x="2" y="2" width="41" height="41" rx="3" fill="#E6D2B5" />
+    <text x="22.5" y="30" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#8B5A2B">11</text>
+  </g>
+  
+  <!-- Piece 12 -->
+  <g transform="translate(225, 275)">
+    <rect x="0" y="0" width="45" height="45" rx="5" fill="#D2B48C" />
+    <rect x="2" y="2" width="41" height="41" rx="3" fill="#E6D2B5" />
+    <text x="22.5" y="30" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#8B5A2B">12</text>
+  </g>
+  
+  <!-- Piece 13 -->
+  <g transform="translate(275, 275)">
+    <rect x="0" y="0" width="45" height="45" rx="5" fill="#D2B48C" />
+    <rect x="2" y="2" width="41" height="41" rx="3" fill="#E6D2B5" />
+    <text x="22.5" y="30" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#8B5A2B">13</text>
+  </g>
+  
+  <!-- Piece 14 -->
+  <g transform="translate(325, 275)">
+    <rect x="0" y="0" width="45" height="45" rx="5" fill="#D2B48C" />
+    <rect x="2" y="2" width="41" height="41" rx="3" fill="#E6D2B5" />
+    <text x="22.5" y="30" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#8B5A2B">14</text>
+  </g>
+  
+  <!-- Piece 15 -->
+  <g transform="translate(375, 275)">
+    <rect x="0" y="0" width="45" height="45" rx="5" fill="#D2B48C" />
+    <rect x="2" y="2" width="41" height="41" rx="3" fill="#E6D2B5" />
+    <text x="22.5" y="30" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#8B5A2B">15</text>
+  </g>
+  
+  <!-- Pieces in bottom rows -->
+  <!-- Piece 16 -->
+  <g transform="translate(175, 325)">
+    <rect x="0" y="0" width="45" height="45" rx="5" fill="#D2B48C" />
+    <rect x="2" y="2" width="41" height="41" rx="3" fill="#E6D2B5" />
+    <text x="22.5" y="30" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#8B5A2B">16</text>
+  </g>
+  
+  <!-- Piece 17 -->
+  <g transform="translate(225, 325)">
+    <rect x="0" y="0" width="45" height="45" rx="5" fill="#D2B48C" />
+    <rect x="2" y="2" width="41" height="41" rx="3" fill="#E6D2B5" />
+    <text x="22.5" y="30" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#8B5A2B">17</text>
+  </g>
+  
+  <!-- Piece 18 -->
+  <g transform="translate(275, 325)">
+    <rect x="0" y="0" width="45" height="45" rx="5" fill="#D2B48C" />
+    <rect x="2" y="2" width="41" height="41" rx="3" fill="#E6D2B5" />
+    <text x="22.5" y="30" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#8B5A2B">18</text>
+  </g>
+  
+  <!-- Piece 19 -->
+  <g transform="translate(325, 325)">
+    <rect x="0" y="0" width="45" height="45" rx="5" fill="#D2B48C" />
+    <rect x="2" y="2" width="41" height="41" rx="3" fill="#E6D2B5" />
+    <text x="22.5" y="30" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#8B5A2B">19</text>
+  </g>
+  
+  <!-- Piece 20 -->
+  <g transform="translate(375, 325)">
+    <rect x="0" y="0" width="45" height="45" rx="5" fill="#D2B48C" />
+    <rect x="2" y="2" width="41" height="41" rx="3" fill="#E6D2B5" />
+    <text x="22.5" y="30" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#8B5A2B">20</text>
+  </g>
+  
+  <!-- Empty space (piece 21 missing) -->
+  <rect x="177" y="377" width="41" height="41" rx="3" fill="#6B4226" opacity="0.3" />
+  
+  <!-- Piece 22 -->
+  <g transform="translate(225, 375)">
+    <rect x="0" y="0" width="45" height="45" rx="5" fill="#D2B48C" />
+    <rect x="2" y="2" width="41" height="41" rx="3" fill="#E6D2B5" />
+    <text x="22.5" y="30" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#8B5A2B">22</text>
+  </g>
+  
+  <!-- Piece 23 -->
+  <g transform="translate(275, 375)">
+    <rect x="0" y="0" width="45" height="45" rx="5" fill="#D2B48C" />
+    <rect x="2" y="2" width="41" height="41" rx="3" fill="#E6D2B5" />
+    <text x="22.5" y="30" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#8B5A2B">23</text>
+  </g>
+  
+  <!-- Piece 24 -->
+  <g transform="translate(325, 375)">
+    <rect x="0" y="0" width="45" height="45" rx="5" fill="#D2B48C" />
+    <rect x="2" y="2" width="41" height="41" rx="3" fill="#E6D2B5" />
+    <text x="22.5" y="30" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#8B5A2B">24</text>
+  </g>
+  
+  <!-- Piece 25 -->
+  <g transform="translate(375, 375)">
+    <rect x="0" y="0" width="45" height="45" rx="5" fill="#D2B48C" />
+    <rect x="2" y="2" width="41" height="41" rx="3" fill="#E6D2B5" />
+    <text x="22.5" y="30" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#8B5A2B">25</text>
+  </g>
+  
+  <!-- Piece 21 (outside the board) -->
+  <g transform="translate(480, 300) rotate(15)">
+    <rect x="0" y="0" width="45" height="45" rx="5" fill="#D2B48C" />
+    <rect x="2" y="2" width="41" height="41" rx="3" fill="#E6D2B5" />
+    <text x="22.5" y="30" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#8B5A2B">21</text>
+  </g>
+  
+  <!-- Shadow under the puzzle -->
+  <ellipse cx="300" cy="480" rx="150" ry="10" fill="#6B4226" opacity="0.2" />
+</svg>

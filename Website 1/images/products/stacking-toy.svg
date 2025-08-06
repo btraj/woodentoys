@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <!-- Background -->
+  <rect width="600" height="600" fill="#F9F5F0" />
+  
+  <!-- Base -->
+  <rect x="200" y="450" width="200" height="30" rx="5" fill="#8B5A2B" />
+  <rect x="210" y="460" width="180" height="10" rx="2" fill="#A67C52" />
+  
+  <!-- Center pole -->
+  <rect x="295" y="200" width="10" height="250" rx="2" fill="#A67C52" />
+  
+  <!-- Stacking rings -->
+  <!-- Ring 1 (bottom) -->
+  <ellipse cx="300" cy="420" rx="80" ry="20" fill="#D2B48C" />
+  <ellipse cx="300" cy="420" rx="70" ry="15" fill="#E6D2B5" />
+  <circle cx="300" cy="420" r="10" fill="#F9F5F0" />
+  
+  <!-- Ring 2 -->
+  <ellipse cx="300" cy="380" rx="70" ry="18" fill="#8B5A2B" />
+  <ellipse cx="300" cy="380" rx="60" ry="13" fill="#A67C52" />
+  <circle cx="300" cy="380" r="10" fill="#F9F5F0" />
+  
+  <!-- Ring 3 -->
+  <ellipse cx="300" cy="340" rx="60" ry="16" fill="#C19A6B" />
+  <ellipse cx="300" cy="340" rx="50" ry="11" fill="#D2B48C" />
+  <circle cx="300" cy="340" r="10" fill="#F9F5F0" />
+  
+  <!-- Ring 4 -->
+  <ellipse cx="300" cy="300" rx="50" ry="14" fill="#A67C52" />
+  <ellipse cx="300" cy="300" rx="40" ry="9" fill="#C19A6B" />
+  <circle cx="300" cy="300" r="10" fill="#F9F5F0" />
+  
+  <!-- Ring 5 -->
+  <ellipse cx="300" cy="260" rx="40" ry="12" fill="#D2B48C" />
+  <ellipse cx="300" cy="260" rx="30" ry="7" fill="#E6D2B5" />
+  <circle cx="300" cy="260" r="10" fill="#F9F5F0" />
+  
+  <!-- Top piece -->
+  <path d="M290,200 L310,200 L310,180 L300,160 L290,180 Z" fill="#8B5A2B" />
+  
+  <!-- Wood grain details -->
+  <path d="M240,420 C260,425 280,423 300,420 C320,417 340,415 360,420" stroke="#A67C52" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M250,380 C270,385 290,383 310,380 C330,377 350,375 370,380" stroke="#6B4226" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M260,340 C280,345 300,343 320,340 C340,337 360,335 380,340" stroke="#A67C52" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M270,300 C290,305 310,303 330,300 C350,297 370,295 390,300" stroke="#8B5A2B" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M280,260 C300,265 320,263 340,260 C360,257 380,255 400,260" stroke="#A67C52" stroke-width="1" fill="none" opacity="0.3" />
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <!-- Background -->
+  <rect width="600" height="600" fill="#F9F5F0" />
+  
+  <!-- Rocking chair base/rockers -->
+  <path d="M200,400 C250,420 350,420 400,400" stroke="#8B5A2B" stroke-width="10" fill="none" />
+  <path d="M200,400 C250,380 350,380 400,400" stroke="#8B5A2B" stroke-width="10" fill="none" />
+  
+  <!-- Chair seat -->
+  <rect x="225" y="300" width="150" height="20" rx="5" fill="#D2B48C" />
+  <rect x="230" y="305" width="140" height="10" rx="3" fill="#E6D2B5" />
+  
+  <!-- Wood grain on seat -->
+  <path d="M240,310 C280,315 320,315 360,310" stroke="#C19A6B" stroke-width="1" fill="none" opacity="0.3" />
+  
+  <!-- Chair back -->
+  <rect x="225" y="200" width="150" height="20" rx="5" fill="#D2B48C" />
+  <rect x="230" y="205" width="140" height="10" rx="3" fill="#E6D2B5" />
+  
+  <!-- Back supports -->
+  <rect x="240" y="220" width="10" height="80" rx="2" fill="#C19A6B" />
+  <rect x="280" y="220" width="10" height="80" rx="2" fill="#C19A6B" />
+  <rect x="320" y="220" width="10" height="80" rx="2" fill="#C19A6B" />
+  <rect x="360" y="220" width="10" height="80" rx="2" fill="#C19A6B" />
+  
+  <!-- Chair legs -->
+  <rect x="235" y="320" width="10" height="80" rx="2" fill="#A67C52" />
+  <rect x="355" y="320" width="10" height="80" rx="2" fill="#A67C52" />
+  
+  <!-- Armrests -->
+  <path d="M235,320 C235,310 235,300 235,290" stroke="#A67C52" stroke-width="8" fill="none" />
+  <path d="M235,290 C245,290 255,290 265,290" stroke="#A67C52" stroke-width="8" fill="none" />
+  
+  <path d="M365,320 C365,310 365,300 365,290" stroke="#A67C52" stroke-width="8" fill="none" />
+  <path d="M365,290 C355,290 345,290 335,290" stroke="#A67C52" stroke-width="8" fill="none" />
+  
+  <!-- Decorative elements -->
+  <!-- Carved details on back -->
+  <path d="M240,210 C250,205 260,210 270,205" stroke="#8B5A2B" stroke-width="1" fill="none" />
+  <path d="M280,210 C290,205 300,210 310,205" stroke="#8B5A2B" stroke-width="1" fill="none" />
+  <path d="M320,210 C330,205 340,210 350,205" stroke="#8B5A2B" stroke-width="1" fill="none" />
+  
+  <!-- Carved details on armrests -->
+  <path d="M245,290 C250,285 255,290 260,285" stroke="#8B5A2B" stroke-width="1" fill="none" />
+  <path d="M340,290 C345,285 350,290 355,285" stroke="#8B5A2B" stroke-width="1" fill="none" />
+  
+  <!-- Connections between rockers and legs -->
+  <path d="M235,400 C235,390 235,380 235,370" stroke="#8B5A2B" stroke-width="5" fill="none" />
+  <path d="M365,400 C365,390 365,380 365,370" stroke="#8B5A2B" stroke-width="5" fill="none" />
+  
+  <!-- Tiny wooden doll (for scale) -->
+  <circle cx="300" cy="270" r="10" fill="#E6D2B5" />
+  <rect x="295" y="280" width="10" height="20" fill="#E6D2B5" />
+  <line x1="295" y1="285" x2="285" y2="295" stroke="#E6D2B5" stroke-width="3" />
+  <line x1="305" y1="285" x2="315" y2="295" stroke="#E6D2B5" stroke-width="3" />
+  <line x1="295" y1="300" x2="290" y2="315" stroke="#E6D2B5" stroke-width="3" />
+  <line x1="305" y1="300" x2="310" y2="315" stroke="#E6D2B5" stroke-width="3" />
+  
+  <!-- Shadow under the rocking chair -->
+  <ellipse cx="300" cy="430" rx="120" ry="10" fill="#6B4226" opacity="0.2" />
+</svg>

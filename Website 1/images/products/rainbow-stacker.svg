@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <!-- Background -->
+  <rect width="600" height="600" fill="#F9F5F0" />
+  
+  <!-- Base -->
+  <rect x="200" y="400" width="200" height="20" rx="5" fill="#8B5A2B" />
+  <rect x="210" y="405" width="180" height="10" rx="3" fill="#A67C52" />
+  
+  <!-- Wood grain on base -->
+  <path d="M230,410 C270,415 330,415 370,410" stroke="#6B4226" stroke-width="1" fill="none" opacity="0.3" />
+  
+  <!-- Center pole -->
+  <rect x="295" y="200" width="10" height="200" rx="2" fill="#D2B48C" />
+  <rect x="297" y="205" width="6" height="190" rx="1" fill="#E6D2B5" />
+  
+  <!-- Rainbow arches -->
+  <!-- Red arch -->
+  <path d="M150,400 C150,300 450,300 450,400" stroke="#A52A2A" stroke-width="20" fill="none" />
+  
+  <!-- Orange arch -->
+  <path d="M175,400 C175,320 425,320 425,400" stroke="#FF7F50" stroke-width="20" fill="none" />
+  
+  <!-- Yellow arch -->
+  <path d="M200,400 C200,340 400,340 400,400" stroke="#FFD700" stroke-width="20" fill="none" />
+  
+  <!-- Green arch -->
+  <path d="M225,400 C225,360 375,360 375,400" stroke="#228B22" stroke-width="20" fill="none" />
+  
+  <!-- Blue arch -->
+  <path d="M250,400 C250,380 350,380 350,400" stroke="#4169E1" stroke-width="20" fill="none" />
+  
+  <!-- Purple arch -->
+  <path d="M275,400 C275,390 325,390 325,400" stroke="#800080" stroke-width="20" fill="none" />
+  
+  <!-- Wood grain texture overlay on arches (subtle) -->
+  <path d="M150,400 C150,300 450,300 450,400" stroke="#8B5A2B" stroke-width="1" fill="none" opacity="0.1" />
+  <path d="M175,400 C175,320 425,320 425,400" stroke="#8B5A2B" stroke-width="1" fill="none" opacity="0.1" />
+  <path d="M200,400 C200,340 400,340 400,400" stroke="#8B5A2B" stroke-width="1" fill="none" opacity="0.1" />
+  <path d="M225,400 C225,360 375,360 375,400" stroke="#8B5A2B" stroke-width="1" fill="none" opacity="0.1" />
+  <path d="M250,400 C250,380 350,380 350,400" stroke="#8B5A2B" stroke-width="1" fill="none" opacity="0.1" />
+  <path d="M275,400 C275,390 325,390 325,400" stroke="#8B5A2B" stroke-width="1" fill="none" opacity="0.1" />
+  
+  <!-- Top cap -->
+  <circle cx="300" cy="200" r="15" fill="#D2B48C" />
+  <circle cx="300" cy="200" r="10" fill="#E6D2B5" />
+  
+  <!-- Shadow under the stacker -->
+  <ellipse cx="300" cy="430" rx="150" ry="10" fill="#6B4226" opacity="0.2" />
+</svg>

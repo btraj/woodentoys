@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <!-- Background -->
+  <rect width="600" height="600" fill="#F9F5F0" />
+  
+  <!-- Pull-along toy body (duck shape) -->
+  <ellipse cx="300" cy="350" rx="150" ry="100" fill="#D2B48C" />
+  <ellipse cx="300" cy="350" rx="140" ry="90" fill="#E6D2B5" />
+  
+  <!-- Wood grain on body -->
+  <path d="M200,320 C220,325 240,323 260,320 C280,317 300,315 320,320 C340,325 360,323 380,320 C400,317 420,315 440,320" stroke="#A67C52" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M200,350 C220,355 240,353 260,350 C280,347 300,345 320,350 C340,355 360,353 380,350 C400,347 420,345 440,350" stroke="#A67C52" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M200,380 C220,385 240,383 260,380 C280,377 300,375 320,380 C340,385 360,383 380,380 C400,377 420,375 440,380" stroke="#A67C52" stroke-width="1" fill="none" opacity="0.3" />
+  
+  <!-- Duck head -->
+  <ellipse cx="420" cy="300" rx="50" ry="40" fill="#D2B48C" />
+  <ellipse cx="420" cy="300" rx="45" ry="35" fill="#E6D2B5" />
+  
+  <!-- Duck bill -->
+  <path d="M470,300 L500,290 L500,310 Z" fill="#8B5A2B" />
+  
+  <!-- Duck eye -->
+  <circle cx="440" cy="290" r="5" fill="#6B4226" />
+  
+  <!-- Wheels -->
+  <circle cx="220" cy="450" r="30" fill="#8B5A2B" />
+  <circle cx="220" cy="450" r="25" fill="#A67C52" />
+  <circle cx="220" cy="450" r="5" fill="#6B4226" />
+  <circle cx="380" cy="450" r="30" fill="#8B5A2B" />
+  <circle cx="380" cy="450" r="25" fill="#A67C52" />
+  <circle cx="380" cy="450" r="5" fill="#6B4226" />
+  
+  <!-- Axle -->
+  <line x1="220" y1="450" x2="380" y2="450" stroke="#6B4226" stroke-width="5" />
+  
+  <!-- Pull string -->
+  <path d="M150,350 C130,330 110,340 100,320 C90,300 100,280 120,270" stroke="#8B5A2B" stroke-width="3" fill="none" />
+  
+  <!-- Pull handle -->
+  <circle cx="120" cy="270" r="15" fill="#8B5A2B" />
+  <circle cx="120" cy="270" r="10" fill="#A67C52" />
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <!-- Background -->
+  <rect width="600" height="600" fill="#F9F5F0" />
+  
+  <!-- Block A -->
+  <g transform="translate(150, 250) rotate(-15)">
+    <rect x="0" y="0" width="80" height="80" rx="5" fill="#D2B48C" />
+    <rect x="5" y="5" width="70" height="70" rx="3" fill="#E6D2B5" />
+    <!-- Letter A -->
+    <text x="40" y="55" font-family="Arial" font-size="50" font-weight="bold" text-anchor="middle" fill="#8B5A2B">A</text>
+    <!-- Wood grain -->
+    <path d="M15,20 C30,25 50,25 65,20" stroke="#C19A6B" stroke-width="1" fill="none" opacity="0.3" />
+    <path d="M15,40 C30,45 50,45 65,40" stroke="#C19A6B" stroke-width="1" fill="none" opacity="0.3" />
+    <path d="M15,60 C30,65 50,65 65,60" stroke="#C19A6B" stroke-width="1" fill="none" opacity="0.3" />
+  </g>
+  
+  <!-- Block B -->
+  <g transform="translate(250, 300) rotate(10)">
+    <rect x="0" y="0" width="80" height="80" rx="5" fill="#C19A6B" />
+    <rect x="5" y="5" width="70" height="70" rx="3" fill="#D2B48C" />
+    <!-- Letter B -->
+    <text x="40" y="55" font-family="Arial" font-size="50" font-weight="bold" text-anchor="middle" fill="#8B5A2B">B</text>
+    <!-- Wood grain -->
+    <path d="M15,20 C30,25 50,25 65,20" stroke="#A67C52" stroke-width="1" fill="none" opacity="0.3" />
+    <path d="M15,40 C30,45 50,45 65,40" stroke="#A67C52" stroke-width="1" fill="none" opacity="0.3" />
+    <path d="M15,60 C30,65 50,65 65,60" stroke="#A67C52" stroke-width="1" fill="none" opacity="0.3" />
+  </g>
+  
+  <!-- Block C -->
+  <g transform="translate(350, 250) rotate(-5)">
+    <rect x="0" y="0" width="80" height="80" rx="5" fill="#A67C52" />
+    <rect x="5" y="5" width="70" height="70" rx="3" fill="#C19A6B" />
+    <!-- Letter C -->
+    <text x="40" y="55" font-family="Arial" font-size="50" font-weight="bold" text-anchor="middle" fill="#E6D2B5">C</text>
+    <!-- Wood grain -->
+    <path d="M15,20 C30,25 50,25 65,20" stroke="#8B5A2B" stroke-width="1" fill="none" opacity="0.3" />
+    <path d="M15,40 C30,45 50,45 65,40" stroke="#8B5A2B" stroke-width="1" fill="none" opacity="0.3" />
+    <path d="M15,60 C30,65 50,65 65,60" stroke="#8B5A2B" stroke-width="1" fill="none" opacity="0.3" />
+  </g>
+  
+  <!-- Block 1 -->
+  <g transform="translate(200, 200) rotate(5)">
+    <rect x="0" y="0" width="80" height="80" rx="5" fill="#8B5A2B" />
+    <rect x="5" y="5" width="70" height="70" rx="3" fill="#A67C52" />
+    <!-- Number 1 -->
+    <text x="40" y="55" font-family="Arial" font-size="50" font-weight="bold" text-anchor="middle" fill="#E6D2B5">1</text>
+    <!-- Wood grain -->
+    <path d="M15,20 C30,25 50,25 65,20" stroke="#6B4226" stroke-width="1" fill="none" opacity="0.3" />
+    <path d="M15,40 C30,45 50,45 65,40" stroke="#6B4226" stroke-width="1" fill="none" opacity="0.3" />
+    <path d="M15,60 C30,65 50,65 65,60" stroke="#6B4226" stroke-width="1" fill="none" opacity="0.3" />
+  </g>
+  
+  <!-- Block 2 -->
+  <g transform="translate(300, 180) rotate(-8)">
+    <rect x="0" y="0" width="80" height="80" rx="5" fill="#E6D2B5" />
+    <rect x="5" y="5" width="70" height="70" rx="3" fill="#D2B48C" />
+    <!-- Number 2 -->
+    <text x="40" y="55" font-family="Arial" font-size="50" font-weight="bold" text-anchor="middle" fill="#8B5A2B">2</text>
+    <!-- Wood grain -->
+    <path d="M15,20 C30,25 50,25 65,20" stroke="#C19A6B" stroke-width="1" fill="none" opacity="0.3" />
+    <path d="M15,40 C30,45 50,45 65,40" stroke="#C19A6B" stroke-width="1" fill="none" opacity="0.3" />
+    <path d="M15,60 C30,65 50,65 65,60" stroke="#C19A6B" stroke-width="1" fill="none" opacity="0.3" />
+  </g>
+  
+  <!-- Shadow under the blocks -->
+  <ellipse cx="250" cy="430" rx="80" ry="10" fill="#6B4226" opacity="0.2" />
+  <ellipse cx="350" cy="430" rx="80" ry="10" fill="#6B4226" opacity="0.2" />
+</svg>

@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <!-- Background -->
+  <rect width="600" height="600" fill="#F9F5F0" />
+  
+  <!-- Spinning top -->
+  <!-- Top handle -->
+  <rect x="295" y="150" width="10" height="50" rx="2" fill="#8B5A2B" />
+  <rect x="297" y="155" width="6" height="40" rx="1" fill="#A67C52" />
+  
+  <!-- Top body (cone shape) -->
+  <path d="M250,250 L350,250 L300,350 Z" fill="#D2B48C" />
+  
+  <!-- Wood grain on top body -->
+  <path d="M260,260 L340,260" stroke="#A67C52" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M270,280 L330,280" stroke="#A67C52" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M280,300 L320,300" stroke="#A67C52" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M290,320 L310,320" stroke="#A67C52" stroke-width="1" fill="none" opacity="0.3" />
+  
+  <!-- Top upper disc -->
+  <ellipse cx="300" cy="250" rx="50" ry="15" fill="#E6D2B5" />
+  
+  <!-- Decorative colored bands on top -->
+  <path d="M260,255 C270,260 330,260 340,255" stroke="#A52A2A" stroke-width="5" fill="none" />
+  <path d="M270,270 C280,275 320,275 330,270" stroke="#228B22" stroke-width="5" fill="none" />
+  <path d="M280,290 C285,295 315,295 320,290" stroke="#4169E1" stroke-width="5" fill="none" />
+  <path d="M290,310 C292,315 308,315 310,310" stroke="#FFD700" stroke-width="5" fill="none" />
+  
+  <!-- Top point -->
+  <circle cx="300" cy="350" r="5" fill="#8B5A2B" />
+  
+  <!-- Motion lines (to show spinning) -->
+  <path d="M240,250 C230,240 220,245 210,240" stroke="#6B4226" stroke-width="1" fill="none" opacity="0.5" />
+  <path d="M360,250 C370,240 380,245 390,240" stroke="#6B4226" stroke-width="1" fill="none" opacity="0.5" />
+  <path d="M250,220 C240,210 245,200 240,190" stroke="#6B4226" stroke-width="1" fill="none" opacity="0.5" />
+  <path d="M350,220 C360,210 355,200 360,190" stroke="#6B4226" stroke-width="1" fill="none" opacity="0.5" />
+  
+  <!-- Second spinning top (smaller) -->
+  <!-- Top handle -->
+  <rect x="445" y="250" width="6" height="30" rx="1" fill="#8B5A2B" />
+  <rect x="446" y="253" width="4" height="24" rx="1" fill="#A67C52" />
+  
+  <!-- Top body (cone shape) -->
+  <path d="M420,300 L480,300 L450,360 Z" fill="#C19A6B" />
+  
+  <!-- Wood grain on top body -->
+  <path d="M425,305 L475,305" stroke="#8B5A2B" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M430,315 L470,315" stroke="#8B5A2B" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M435,325 L465,325" stroke="#8B5A2B" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M440,335 L460,335" stroke="#8B5A2B" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M445,345 L455,345" stroke="#8B5A2B" stroke-width="1" fill="none" opacity="0.3" />
+  
+  <!-- Top upper disc -->
+  <ellipse cx="450" cy="300" rx="30" ry="10" fill="#D2B48C" />
+  
+  <!-- Decorative colored bands on top -->
+  <path d="M430,303 C435,306 465,306 470,303" stroke="#800080" stroke-width="3" fill="none" />
+  <path d="M435,313 C440,316 460,316 465,313" stroke="#FF7F50" stroke-width="3" fill="none" />
+  <path d="M440,323 C443,326 457,326 460,323" stroke="#4169E1" stroke-width="3" fill="none" />
+  
+  <!-- Top point -->
+  <circle cx="450" cy="360" r="3" fill="#8B5A2B" />
+  
+  <!-- Third spinning top (smallest, tilted) -->
+  <!-- Tilted top with handle -->
+  <g transform="translate(180, 320) rotate(-15)">
+    <!-- Top handle -->
+    <rect x="-3" y="-40" width="6" height="25" rx="1" fill="#8B5A2B" />
+    <rect x="-2" y="-38" width="4" height="21" rx="1" fill="#A67C52" />
+    
+    <!-- Top body (cone shape) -->
+    <path d="M-25,0 L25,0 L0,50 Z" fill="#A67C52" />
+    
+    <!-- Wood grain on top body -->
+    <path d="M-20,5 L20,5" stroke="#8B5A2B" stroke-width="1" fill="none" opacity="0.3" />
+    <path d="M-15,15 L15,15" stroke="#8B5A2B" stroke-width="1" fill="none" opacity="0.3" />
+    <path d="M-10,25 L10,25" stroke="#8B5A2B" stroke-width="1" fill="none" opacity="0.3" />
+    <path d="M-5,35 L5,35" stroke="#8B5A2B" stroke-width="1" fill="none" opacity="0.3" />
+    
+    <!-- Top upper disc -->
+    <ellipse cx="0" cy="0" rx="25" ry="8" fill="#E6D2B5" />
+    
+    <!-- Decorative colored bands on top -->
+    <path d="M-15,3 C-10,6 10,6 15,3" stroke="#FFD700" stroke-width="3" fill="none" />
+    <path d="M-10,13 C-5,16 5,16 10,13" stroke="#228B22" stroke-width="3" fill="none" />
+    <path d="M-5,23 C-2,26 2,26 5,23" stroke="#A52A2A" stroke-width="3" fill="none" />
+    
+    <!-- Top point -->
+    <circle cx="0" cy="50" r="3" fill="#8B5A2B" />
+  </g>
+  
+  <!-- Shadow under the tops -->
+  <ellipse cx="300" cy="380" rx="60" ry="10" fill="#6B4226" opacity="0.2" />
+  <ellipse cx="450" cy="380" rx="40" ry="8" fill="#6B4226" opacity="0.2" />
+  <ellipse cx="180" cy="380" rx="30" ry="6" fill="#6B4226" opacity="0.2" />
+</svg>

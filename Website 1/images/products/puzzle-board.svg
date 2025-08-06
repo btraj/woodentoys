@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <!-- Background -->
+  <rect width="600" height="600" fill="#F9F5F0" />
+  
+  <!-- Puzzle board -->
+  <rect x="150" y="150" width="300" height="300" rx="10" fill="#8B5A2B" />
+  <rect x="160" y="160" width="280" height="280" rx="5" fill="#A67C52" />
+  
+  <!-- Wood grain on board -->
+  <path d="M200,200 C250,205 350,205 400,200" stroke="#6B4226" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M200,250 C250,255 350,255 400,250" stroke="#6B4226" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M200,300 C250,305 350,305 400,300" stroke="#6B4226" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M200,350 C250,355 350,355 400,350" stroke="#6B4226" stroke-width="1" fill="none" opacity="0.3" />
+  <path d="M200,400 C250,405 350,405 400,400" stroke="#6B4226" stroke-width="1" fill="none" opacity="0.3" />
+  
+  <!-- Puzzle piece holes -->
+  <!-- Circle hole -->
+  <circle cx="200" cy="200" r="25" fill="#6B4226" />
+  <circle cx="200" cy="200" r="20" fill="#8B5A2B" />
+  
+  <!-- Square hole -->
+  <rect x="250" y="175" width="50" height="50" fill="#6B4226" />
+  <rect x="255" y="180" width="40" height="40" fill="#8B5A2B" />
+  
+  <!-- Triangle hole -->
+  <polygon points="350,175 375,225 325,225" fill="#6B4226" />
+  <polygon points="350,180 370,220 330,220" fill="#8B5A2B" />
+  
+  <!-- Star hole -->
+  <polygon points="200,275 210,300 190,300 205,315 195,335 215,325 235,335 225,315 240,300 220,300" fill="#6B4226" />
+  <polygon points="200,280 208,300 192,300 204,312 196,328 212,320 228,328 220,312 232,300 216,300" fill="#8B5A2B" />
+  
+  <!-- Rectangle hole -->
+  <rect x="250" y="275" width="70" height="40" fill="#6B4226" />
+  <rect x="255" y="280" width="60" height="30" fill="#8B5A2B" />
+  
+  <!-- Oval hole -->
+  <ellipse cx="375" cy="295" rx="25" ry="35" fill="#6B4226" />
+  <ellipse cx="375" cy="295" rx="20" ry="30" fill="#8B5A2B" />
+  
+  <!-- Hexagon hole -->
+  <polygon points="200,350 220,335 240,350 240,380 220,395 200,380" fill="#6B4226" />
+  <polygon points="205,355 220,343 235,355 235,375 220,387 205,375" fill="#8B5A2B" />
+  
+  <!-- Heart hole -->
+  <path d="M285,350 C275,335 255,335 255,350 C255,365 270,375 285,390 C300,375 315,365 315,350 C315,335 295,335 285,350 Z" fill="#6B4226" />
+  <path d="M285,355 C277,343 260,343 260,355 C260,367 272,375 285,387 C298,375 310,367 310,355 C310,343 293,343 285,355 Z" fill="#8B5A2B" />
+  
+  <!-- Cross hole -->
+  <path d="M350,335 L400,335 L400,350 L375,350 L375,395 L350,395 L350,350 L325,350 L325,335 L350,335 Z" fill="#6B4226" />
+  <path d="M355,340 L395,340 L395,345 L370,345 L370,390 L355,390 L355,345 L330,345 L330,340 L355,340 Z" fill="#8B5A2B" />
+  
+  <!-- Puzzle pieces (outside the board) -->
+  <!-- Circle piece -->
+  <g transform="translate(480, 180)">
+    <circle cx="0" cy="0" r="25" fill="#D2B48C" />
+    <circle cx="0" cy="0" r="20" fill="#E6D2B5" />
+    <!-- Wood grain -->
+    <path d="M-10,-5 C-5,0 5,0 10,-5" stroke="#C19A6B" stroke-width="1" fill="none" opacity="0.3" />
+    <path d="M-10,5 C-5,10 5,10 10,5" stroke="#C19A6B" stroke-width="1" fill="none" opacity="0.3" />
+  </g>
+  
+  <!-- Square piece -->
+  <g transform="translate(120, 250) rotate(15)">
+    <rect x="-25" y="-25" width="50" height="50" fill="#D2B48C" />
+    <rect x="-20" y="-20" width="40" height="40" fill="#E6D2B5" />
+    <!-- Wood grain -->
+    <path d="M-15,-10 C-5,-5 5,-5 15,-10" stroke="#C19A6B" stroke-width="1" fill="none" opacity="0.3" />
+    <path d="M-15,0 C-5,5 5,5 15,0" stroke="#C19A6B" stroke-width="1" fill="none" opacity="0.3" />
+    <path d="M-15,10 C-5,15 5,15 15,10" stroke="#C19A6B" stroke-width="1" fill="none" opacity="0.3" />
+  </g>
+  
+  <!-- Triangle piece -->
+  <g transform="translate(480, 280) rotate(-10)">
+    <polygon points="0,-25 25,25 -25,25" fill="#D2B48C" />
+    <polygon points="0,-20 20,20 -20,20" fill="#E6D2B5" />
+    <!-- Wood grain -->
+    <path d="M-10,0 C-5,5 5,5 10,0" stroke="#C19A6B" stroke-width="1" fill="none" opacity="0.3" />
+    <path d="M-5,10 C0,15 0,15 5,10" stroke="#C19A6B" stroke-width="1" fill="none" opacity="0.3" />
+  </g>
+  
+  <!-- Heart piece -->
+  <g transform="translate(120, 380) rotate(5)">
+    <path d="M0,0 C-10,-15 -30,-15 -30,0 C-30,15 -15,25 0,40 C15,25 30,15 30,0 C30,-15 10,-15 0,0 Z" fill="#D2B48C" />
+    <path d="M0,5 C-8,-7 -25,-7 -25,5 C-25,17 -13,25 0,37 C13,25 25,17 25,5 C25,-7 8,-7 0,5 Z" fill="#E6D2B5" />
+    <!-- Wood grain -->
+    <path d="M-10,10 C-5,15 5,15 10,10" stroke="#C19A6B" stroke-width="1" fill="none" opacity="0.3" />
+    <path d="M-5,20 C0,25 0,25 5,20" stroke="#C19A6B" stroke-width="1" fill="none" opacity="0.3" />
+  </g>
+  
+  <!-- Cross piece -->
+  <g transform="translate(480, 380) rotate(-5)">
+    <path d="M-25,-15 L25,-15 L25,0 L0,0 L0,40 L-25,40 L-25,0 L-50,0 L-50,-15 L-25,-15 Z" fill="#D2B48C" />
+    <path d="M-20,-10 L20,-10 L20,-5 L-5,-5 L-5,35 L-20,35 L-20,-5 L-45,-5 L-45,-10 L-20,-10 Z" fill="#E6D2B5" />
+    <!-- Wood grain -->
+    <path d="M-15,-5 C-5,0 5,0 15,-5" stroke="#C19A6B" stroke-width="1" fill="none" opacity="0.3" />
+    <path d="M-15,15 C-10,20 -10,20 -15,25" stroke="#C19A6B" stroke-width="1" fill="none" opacity="0.3" />
+  </g>
+  
+  <!-- Shadow under the board -->
+  <ellipse cx="300" cy="480" rx="150" ry="10" fill="#6B4226" opacity="0.2" />
+</svg>
